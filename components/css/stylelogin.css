@@ -1,0 +1,206 @@
+#start{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+#fondoimg {
+    background-image: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+}
+
+div#opacity{
+    background: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+#imglogo{
+    width: 13.5rem;
+    height: 7.9rem;
+}
+
+div#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 8rem;
+    width: auto;
+    min-height: 690px;
+    padding: 48px 68px;
+    flex-direction: column;
+
+
+    h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    div#center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    input {
+        background: rgba(22, 22, 22, 0.7);
+        border-color: rgba(128, 128, 128, 0.7);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 0.25rem;
+        width: 20rem;
+        height: 55px;
+        padding: 13px;
+        font-size: 15px;
+        color: white;
+    }
+  
+    input:focus-visible{
+        border: 1px solid white;
+    }
+
+    div#button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+        
+    button#Sign-in {
+        width: 100%;
+        font-size: 1.0rem;
+        font-weight: 500;
+        min-height: 2.5rem;
+        padding: 0px 8px;
+        background: rgb(229, 9, 20);
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+    button#knowey {
+        width: 100%;
+        font-size: 1.0rem;
+        font-weight: 500;
+        min-height: 2.5rem;
+        padding: 0px 8px;
+        background: dimgray;
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+    button#Sign-in:hover{
+        transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+        background: rgb(193, 17, 25)!important;
+    }
+
+    button#knowey:hover{
+        transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+        background: #9E9E9E !important;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    input[type="checkbox" i] {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 53rem;
+    width: auto;
+    height: 300px;
+    padding: 48px 68px;
+
+  
+    
+    .col-3 {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      line-height: 35px;
+  
+    
+    }
+  
+    button#language{
+      background: transparent;
+      border: 1px solid #484847;
+      color: white;
+      flex: 0;
+    }
+    ul.dropdown-menu{
+      background: transparent;
+      border: 1px solid;
+    }
+  
+    .dropdown-item:focus, .dropdown-item:hover , .dropdown-item:active{
+      color: white;
+      background-color: #232323;
+    }
+    button#language:hover{
+    background: transparent!important;
+    border: 1px solid #484847;
+    color: white;
+    }
+  
+    
+    div a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    div a:hover{
+     text-decoration: underline;
+    }
+  }
+  
+
+.hidden {
+    display: none;
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}

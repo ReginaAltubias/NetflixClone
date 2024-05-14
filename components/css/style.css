@@ -1,0 +1,383 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#section1{
+left: 0;
+top: 0;
+position: absolute;
+overflow: hidden;
+height: 85%;
+width: 100%;
+border-bottom: 10px solid rgb(35, 35, 35);
+
+}
+
+div#\ row-2 {
+  width: 100%;
+}
+
+div#new{
+background: rgb(0 0 0 / 40%);
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+img#fundo{
+height: 100%;
+width: 100%;
+transform: scale(1.27) translateY(-18%);
+object-fit: cover;
+
+
+}
+
+div#top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 178px 0px 165px;
+  top: -10px;
+}
+
+img#logo{
+width: 11.5rem;
+height: 4.9rem;
+}
+
+#btnlogin{
+background: red;
+border: none;
+color: white;
+transform: translateY(15px);
+font-weight: 600;
+font-size: 14px;
+border-radius: 3px;
+}
+
+button.btn:hover{
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  background: rgb(193, 17, 25)!important;
+}
+#btnlogin:hover{
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  background: rgb(193, 17, 25)!important;
+}
+
+div#headercenter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 255px;
+  flex-direction: column;
+
+
+
+  h1{
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 2.7rem;
+    font-weight: 900;
+  }
+  p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+    
+  }
+
+  h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  div#last {
+    line-height: 5rem;
+
+    input {
+      background: rgba(22, 22, 22, 0.7);
+      border-color: rgba(128, 128, 128, 0.7);
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 0.25rem;
+      width: 23rem;
+      height: 55px;
+      padding: 13px;
+      font-size: 15px;
+      color: white;
+    }
+
+    input:focus-visible{
+      border: 1px solid white;
+    }
+
+
+    button#btnStarted {
+      width: auto;
+      font-size: 1.5rem;
+      font-weight: 500;
+      min-height: 3.5rem;
+      padding: 0px 10px;
+      background: rgb(229, 9, 20);
+      color: rgb(255, 255, 255);
+      transform: translateY(-3px);
+    }
+    
+  }  
+
+}
+
+
+section#section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 0;
+  text-align: left;
+  border-bottom: 10px solid rgb(35, 35, 35);
+  transform: translateY(40.6rem);
+
+
+  article{
+    padding: 0px 0px 0px 133px;
+
+    h1{
+      color: white;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 2.7rem;
+      font-weight: 900;
+    }
+    p{
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: white;
+      
+    }
+  }
+  
+
+  
+  
+
+}
+
+section#section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem;
+  text-align: left;
+  border-bottom: 10px solid rgb(35, 35, 35);
+  transform: translateY(40.6rem);
+
+
+  article{
+    text-align: left;
+    padding-left: 0.375rem;
+
+    h1{
+      color: white;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 2.7rem;
+      font-weight: 900;
+    }
+    p{
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: white;
+      
+    }
+  }
+
+  div#Download{
+    background: black;
+    border-color: rgba(128, 128, 128, 0.7);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.70rem;
+    width: 56%;
+    padding: 0.5rem 0.75rem;
+    display:flex;
+    position: relative;
+    top: -140px;
+    left: 160px;
+
+    span{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 10px;
+      padding-top: 15px;
+    }
+  }
+}
+section#section4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 0;
+  text-align: left;
+  border-bottom: 10px solid rgb(35, 35, 35);
+  transform: translateY(40.6rem);
+
+
+  article{
+    padding: 0px 156px 0px 0px;
+
+    h1{
+      color: white;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 2.7rem;
+      font-weight: 900;
+    }
+    p{
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: white;
+      
+    }
+  }
+}
+
+section#section5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 9rem;
+  text-align: left;
+  border-bottom: 10px solid  rgb(35, 35, 35);;
+  transform: translateY(40.6rem);
+
+
+  article{
+
+    h1{
+      color: white;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 2.7rem;
+      font-weight: 900;
+    }
+    p{
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: white;
+      
+    }
+  }
+}
+
+section#section6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 9rem;
+  text-align: center;
+  border-bottom: 10px solid  rgb(35, 35, 35);;
+  transform: translateY(40.6rem);
+  flex-direction: column;
+
+  h1{
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 2.7rem;
+    font-weight: 900;
+  }
+
+  .gap-1 {
+    margin-bottom: 5px;
+  }
+
+  div#collapse {
+    transform: translateX(65px);
+
+
+    a{
+    
+      width: 90%;
+      padding: 0.9rem;
+      background-color: rgb(45, 45, 45);
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: unset;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+
+  
+    }
+  
+    .card.card-body{
+      width: 90%;
+      padding: 1.5rem;
+      background-color: rgb(45, 45, 45);
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: unset;
+      font-size: 1.5rem;
+      text-align: start;
+      margin: -4px 0px 4px 0px;
+      display: flex;
+    }
+  }
+
+  
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem;
+  text-align: center;
+  transform: translateY(40.6rem);
+
+  
+  .col-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 35px;
+
+  
+  }
+
+  button#language{
+    background: transparent;
+    border: 1px solid #484847;
+    color: white;
+    flex: 0;
+  }
+  ul.dropdown-menu{
+    background: transparent;
+    border: 1px solid;
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover , .dropdown-item:active{
+    color: white;
+    background-color: #232323;
+  }
+  button#language:hover{
+  background: transparent!important;
+  border: 1px solid #484847;
+  color: white;
+  }
+
+  
+  div a {
+    color: white;
+    text-decoration: none;
+  }
+
+  div a:hover{
+   text-decoration: underline;
+  }
+}
